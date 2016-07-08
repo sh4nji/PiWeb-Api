@@ -1424,7 +1424,7 @@ HTTP/1.1 200 OK
 
 {% capture jsonrequest %}
 {% highlight http %}
-POST /dataServiceRest/measurements/5b59cac7-9ecd-403c-aa26-56dd25892421 HTTP/1.1
+DELETE /dataServiceRest/measurements/5b59cac7-9ecd-403c-aa26-56dd25892421 HTTP/1.1
 {% endhighlight %}
 {% endcapture %}
 
